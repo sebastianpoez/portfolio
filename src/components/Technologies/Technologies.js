@@ -8,7 +8,14 @@ const Technologies = () => (
     <SectionDivider divider />
     <SectionTitle>Skills</SectionTitle>
     <SectionText>
-    I have extensive experience working with a variety of technologies as a developer. I've developed and maintained multiple projects using these technologies, and I'm always eager to learn more.
+      I have strong knowledge of web development using NodeJS.
+      Demonstrated expertise in enhancing system performance and scalability, with a proven
+      track record of optimizing high-volume platforms and driving the transition to a
+      microservices-oriented architecture. Skilled in every stage of the software development
+      life cycle, from planning and estimation to development, optimization, and maintenance.
+      In addition, I also have abundant experience with modern JavaScript frameworks such as
+      React, Next.js.
+
     </SectionText>
     <List>
       {Skills.map((Skill) => (

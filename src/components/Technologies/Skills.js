@@ -1,76 +1,97 @@
-import { DiAndroid, DiTerminal, DiJava, DiHtml5 } from "react-icons/di";
+import { DiNodejsSmall, DiTerminal, DiJava, DiHtml5 } from "react-icons/di";
 import { SiFirebase, SiGit, SiDart, SiCss3, SiMysql, SiAmazonaws } from "react-icons/si";
 import { RiFlutterFill } from "react-icons/ri";
 import { TbBrandKotlin } from "react-icons/tb";
 
 export const Skills = [
   {
-    slug: "android",
-    Component: DiAndroid,
-    title: "Android",
-    Description: () => <>Android Apps, ROMs, & Kernels</>,
+    slug: "node.js",
+    Component: DiNodejsSmall,
+    title: "Node.js",
+    Description: () => <>Express.js and Nest.js</>,
   },
+
   {
-    slug: "flutter",
+    slug: "express.js",
     Component: RiFlutterFill,
-    title: "Flutter",
-    Description: () => <>Cross-platform app development</>,
+    title: "Express.js",
+    Description: () => <>Backend framework</>,
   },
+
   {
-    slug: "kotlin",
+    slug: "nest.js",
     Component: TbBrandKotlin,
-    title: "Kotlin",
-    Description: () => <>Android apps and Lambda functions</>,
-  },
-  {
-    slug: "dart",
-    Component: SiDart,
-    title: "Dart",
-    Description: () => <>Flutter apps only</>,
-  },
-  {
-    slug: "java",
-    Component: DiJava,
-    title: "Java",
-    Description: () => <>Android apps and Lambda functions</>,
+    title: "Nest.js",
+    Description: () => <>Backend framework</>,
   },
 
   {
-    slug: "html",
-    Component: DiHtml5,
-    title: "HTML",
-    Description: () => <>Static webpages and portfolio projects</>,
-  },
-  {
-    slug: "css",
-    Component: SiCss3,
-    title: "CSS",
-    Description: () => <>Styling of my webpages</>,
-  },
-
-  {
-    slug: "sql",
-    Component: SiMysql,
-    title: "MySQL",
-    Description: () => <>Storing client and user data</>,
-  },
-  {
-    slug: "aws",
-    Component: SiAmazonaws,
-    title: "AWS Lambda",
-    Description: () => <>Lambda functions for creating APIs</>,
-  },
-  {
-    slug: "terminal",
-    Component: DiTerminal,
-    title: "Bash",
-    Description: () => <>Ease of life and build scripts</>,
-  },
+    slug: "restful api",
+    Component: TbBrandKotlin,
+    title: "Restful API",
+    Description: () => <>Backend framework</>,
+  }, 
+  
   {
     slug: "firebase",
     Component: SiFirebase,
     title: "Firebase",
     Description: () => <>Authentication, database and analytics</>,
+  },
+  
+  {
+    slug: "postgresql",
+    Component: SiDart,
+    title: "PostgreSQL",
+    Description: () => <>Database</>,
+  },
+
+  {
+    slug: "mongdb",
+    Component: DiJava,
+    title: "MongoDB",
+    Description: () => <>Database</>,
+  },
+
+  {
+    slug: "mysql",
+    Component: SiDart,
+    title: "MySQL",
+    Description: () => <>Database</>,
+  },
+
+  {
+    slug: "react",
+    Component: DiTerminal,
+    title: "React",
+    Description: () => <>React library</>,
+  },
+
+  {
+    slug: "next.js",
+    Component: DiHtml5,
+    title: "Next.js",
+    Description: () => <>React framework</>,
+  },
+
+
+  {
+    slug: "typescript",
+    Component: SiCss3,
+    title: "TypeScript",
+    Description: () => <>superset of JavaScript that adds static typing to the language</>,
+  },
+  {
+    slug: "stripe",
+    Component: SiAmazonaws,
+    title: "Stripe",
+    Description: () => <>Payment gateway</>,
+  },
+  {
+    slug: "tailwindcss",
+    Component: DiTerminal,
+    title: "TailwindCSS",
+    Description: () => <>Css framework</>,
   },
   {
     slug: "git",

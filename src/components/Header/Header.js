@@ -31,7 +31,7 @@ const Header = () => (
         </Link>
       </li>
       <li>
-        <Link href="#blog" legacyBehavior>
+        <Link href="#" legacyBehavior>
           <NavLink>Blog</NavLink>
         </Link>
       </li>

@@ -11,19 +11,21 @@ const Footer = () => {
     <FooterWrapper>
       <LinkList>
         <LinkColumn>
-          <LinkTitle>Chat</LinkTitle>
-          <LinkItem href="https://t.me/lordarcadius">Telegram</LinkItem>
+          <LinkTitle>Discord</LinkTitle>
+          <LinkItem href="mailto:hey@vipuljha.com">
+            engineer03250
+          </LinkItem>
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
-          <LinkItem href="mailto:hey@vipuljha.com">
-            hey@vipuljha.com
+          <LinkItem href="#">
+            scpaez3@gmail.com
           </LinkItem>
         </LinkColumn>
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>Copyright &copy; {year} <Link href="https://www.vipuljha.com">  Vipul Jha</Link>. All rights reserved.</Slogan>
+          <Slogan>Copyright &copy; {year} <Link href="https://www.vipuljha.com">  Sebastian Paez</Link>. All rights reserved.</Slogan>
         </CompanyContainer>
         <SocialContainer>
           <SocialIcons href="https://github.com/sebastianpoez">
