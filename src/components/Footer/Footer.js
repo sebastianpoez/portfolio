@@ -26,17 +26,11 @@ const Footer = () => {
           <Slogan>Copyright &copy; {year} <Link href="https://www.vipuljha.com">  Vipul Jha</Link>. All rights reserved.</Slogan>
         </CompanyContainer>
         <SocialContainer>
-          <SocialIcons href="https://github.com/lordarcadius">
+          <SocialIcons href="https://github.com/sebastianpoez">
             <AiFillGithub size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://www.linkedin.com/in/lordarcadius/">
+          <SocialIcons href="https://www.linkedin.com/in/sebastian-paez-b1a616347">
             <AiFillLinkedin size="3rem" />
-          </SocialIcons>
-          <SocialIcons href="https://www.instagram.com/lordarcadius">
-            <AiFillInstagram size="3rem" />
-          </SocialIcons>
-          <SocialIcons href="https://www.twitter.com/lordarcadius">
-            <AiFillTwitterCircle size="3rem" />
           </SocialIcons>
         </SocialContainer>
       </SocialIconsContainer>
